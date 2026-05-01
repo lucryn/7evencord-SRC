@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1896171-BDDB-44A8-9EDE-237EDA269236}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Expression</RootNamespace>
+    <AssemblyName>Microsoft.Expression.Interactions</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlendSDK\RuntimeVersion.cs" />
+    <Compile Include="BlendSDK\VersionConstants.cs" />
+    <Compile Include="Interactivity\ComparisonLogic.cs" />
+    <Compile Include="Interactivity\Core\ActionCommand.cs" />
+    <Compile Include="Interactivity\Core\CallMethodAction.cs" />
+    <Compile Include="Interactivity\Core\ChangePropertyAction.cs" />
+    <Compile Include="Interactivity\Core\ComparisonCondition.cs" />
+    <Compile Include="Interactivity\Core\ComparisonConditionType.cs" />
+    <Compile Include="Interactivity\Core\ConditionalExpression.cs" />
+    <Compile Include="Interactivity\Core\ConditionBehavior.cs" />
+    <Compile Include="Interactivity\Core\ConditionCollection.cs" />
+    <Compile Include="Interactivity\Core\DataStateBehavior.cs" />
+    <Compile Include="Interactivity\Core\DataStoreChangedTrigger.cs" />
+    <Compile Include="Interactivity\Core\DataTrigger.cs" />
+    <Compile Include="Interactivity\Core\ExtendedVisualStateManager.cs" />
+    <Compile Include="Interactivity\Core\ForwardChaining.cs" />
+    <Compile Include="Interactivity\Core\GoToStateAction.cs" />
+    <Compile Include="Interactivity\Core\ICondition.cs" />
+    <Compile Include="Interactivity\Core\NavigateToPageAction.cs" />
+    <Compile Include="Interactivity\Core\PropertyChangedTrigger.cs" />
+    <Compile Include="Interactivity\Core\RemoveElementAction.cs" />
+    <Compile Include="Interactivity\Core\SetDataStoreValueAction.cs" />
+    <Compile Include="Interactivity\Core\TimerTrigger.cs" />
+    <Compile Include="Interactivity\DataBindingHelper.cs" />
+    <Compile Include="Interactivity\ExceptionStringTable.cs" />
+    <Compile Include="Interactivity\Input\KeyTrigger.cs" />
+    <Compile Include="Interactivity\Input\KeyTriggerFiredOn.cs" />
+    <Compile Include="Interactivity\Layout\FluidMoveBehavior.cs" />
+    <Compile Include="Interactivity\Layout\FluidMoveBehaviorBase.cs" />
+    <Compile Include="Interactivity\Layout\FluidMoveScope.cs" />
+    <Compile Include="Interactivity\Layout\FluidMoveSetTagBehavior.cs" />
+    <Compile Include="Interactivity\Layout\MouseDragElementBehavior.cs" />
+    <Compile Include="Interactivity\Layout\TagType.cs" />
+    <Compile Include="Interactivity\Media\ControlStoryboardAction.cs" />
+    <Compile Include="Interactivity\Media\ControlStoryboardOption.cs" />
+    <Compile Include="Interactivity\Media\PlaySoundAction.cs" />
+    <Compile Include="Interactivity\Media\StoryboardAction.cs" />
+    <Compile Include="Interactivity\Media\StoryboardCompletedTrigger.cs" />
+    <Compile Include="Interactivity\Media\StoryboardTrigger.cs" />
+    <Compile Include="Interactivity\TypeConverterHelper.cs" />
+    <Compile Include="Interactivity\VisualStateUtilities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interactivity\ExceptionStringTable.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System.Windows.Interactivity\System.Windows.Interactivity.csproj">
+      <Project>{d1896171-bddb-44a8-9ede-237eda26923a}</Project>
+      <Name>System.Windows.Interactivity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

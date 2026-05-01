@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Expression.Controls", "Microsoft.Expression.Controls\Microsoft.Expression.Controls.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Expression.Drawing", "Microsoft.Expression.Drawing\Microsoft.Expression.Drawing.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Expression.Interactions", "Microsoft.Expression.Interactions\Microsoft.Expression.Interactions.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Phone.Controls.Toolkit", "Microsoft.Phone.Controls.Toolkit\Microsoft.Phone.Controls.Toolkit.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Phone.Controls", "Microsoft.Phone.Controls\Microsoft.Phone.Controls.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json", "Newtonsoft.Json\Newtonsoft.Json.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA269239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Windows.Interactivity", "System.Windows.Interactivity\System.Windows.Interactivity.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA26923A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W7Cord", "W7Cord\W7Cord.csproj", "{D1896171-BDDB-44A8-9EDE-237EDA26923B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1896171-BDDB-44A8-9EDE-237EDA269234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA269239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896171-BDDB-44A8-9EDE-237EDA26923B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
