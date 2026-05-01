@@ -1,0 +1,70 @@
+<ResourceDictionary
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:ec="clr-namespace:Microsoft.Expression.Controls"
+	xmlns:em="clr-namespace:Microsoft.Expression.Media"
+	xmlns:es="clr-namespace:Microsoft.Expression.Shapes">
+
+	<Style TargetType="ec:Callout">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="ec:Callout">
+					<Grid>
+						<Path
+							x:Name="PART_Path"
+							Fill="{TemplateBinding Fill}"
+							Stroke="{TemplateBinding Stroke}"
+							StrokeThickness="{TemplateBinding StrokeThickness}"
+							StrokeDashArray="{TemplateBinding StrokeDashArray}"
+							StrokeDashCap="{TemplateBinding StrokeDashCap}"
+							StrokeDashOffset="{TemplateBinding StrokeDashOffset}"
+							StrokeLineJoin="{TemplateBinding StrokeLineJoin}"
+							StrokeMiterLimit="{TemplateBinding StrokeMiterLimit}"
+							StrokeStartLineCap="{TemplateBinding StrokeStartLineCap}"
+							StrokeEndLineCap="{TemplateBinding StrokeEndLineCap}"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Stretch"
+							Stretch="Fill"
+							UseLayoutRounding="False"
+							/>
+						<ContentPresenter
+							HorizontalAlignment="Center"
+							VerticalAlignment="Center"
+							Content="{TemplateBinding InternalContent}"
+							Margin="{TemplateBinding Padding}"
+							/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style TargetType="ec:LineArrow">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="ec:LineArrow">
+						<!-- The line arrow requires both fill and stroke to use stroke brush. -->
+						<Path
+							x:Name="PART_Path"
+							Fill="{TemplateBinding Stroke}"
+							Stroke="{TemplateBinding Stroke}"
+							StrokeThickness="{TemplateBinding StrokeThickness}"
+							StrokeDashArray="{TemplateBinding StrokeDashArray}"
+							StrokeDashCap="{TemplateBinding StrokeDashCap}"
+							StrokeDashOffset="{TemplateBinding StrokeDashOffset}"
+							StrokeLineJoin="{TemplateBinding StrokeLineJoin}"
+							StrokeMiterLimit="{TemplateBinding StrokeMiterLimit}"
+							StrokeStartLineCap="{TemplateBinding StrokeStartLineCap}"
+							StrokeEndLineCap="{TemplateBinding StrokeEndLineCap}"
+							HorizontalAlignment="Stretch"
+							VerticalAlignment="Stretch"
+							Stretch="Fill"
+							UseLayoutRounding="False"
+							/>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+</ResourceDictionary>
